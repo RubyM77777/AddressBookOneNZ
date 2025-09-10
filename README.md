@@ -33,13 +33,14 @@ The app should implement the following:
  The endpoints should be secured by OAuth client credential flow
 You can use SQLite as the db,
 
-cd C:\Users\sugan\source\repos\AddressBookOneNZ\AddressBookOneNZ
+cd C:\
 dir
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 
 ef migrations remove
 
+SQLLite:
 
 select * from Contacts
 
@@ -47,12 +48,12 @@ select * from Groups
 
 select * from ContactGroup
 
-https://localhost:7025/
+https://localhost:****/
 
-https://localhost:7025/connect/token
+https://localhost:****/connect/token
 
 
-
+----------------
 
 program.cs  - OAuth client creds
 
